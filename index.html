@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano B</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<section>
+  <div class="total-balance">
+    <h3>Saldo Final</h3>
+    <p>R$ 0,00</p>
+  </div>
+
+  <div class="income">
+    <h3>Entradas</h3>
+    <p>+ R$ 0,00</p>
+  </div>
+
+  <div class="expenses">
+    <h3>Saídas</h3>
+    <p>- R$ 0,00</p>
+  </div>
+</section>
+
+
+
+<section class="transaction-form">
+  <h3>Nova Transação</h3>
+  <form>
+    <select id="categoria" required>
+      <option value="" disabled selected>Categoria</option>
+      <option value="salario">💰 Salário</option>
+      <option value="alimentacao">🍔 Alimentação</option>
+      <option value="transporte">🚌 Transporte</option>
+      <option value="lazer">🎮 Lazer</option>
+      <option value="contas">💡 Contas</option>
+      <option value="outros">🔖 Outros</option>
+    </select>
+
+    <input type="number" placeholder="Valor (R$)" required />
+
+    <select id="tipo" required>
+      <option value="" disabled selected>Tipo</option>
+      <option value="entrada">Entrada</option>
+      <option value="saida">Saída</option>
+    </select>
+
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <footer>Criado por <a href="https://giodosvani.dev.br" target="_blank">Giovani Oliveira</a></footer>
+</section>
+
+
+</body>
+</html>
