@@ -18,7 +18,7 @@ Futuramente, ele se integrará a um **assistente virtual via WhatsApp** para reg
 
 - [ ] Cadastro de transações (entradas e saídas)
 - [ ] Cálculo automático de saldo
-- [ ] Visual moderno com foco em acessibilidade
+- [X] Visual moderno com foco em acessibilidade
 - [ ] Armazenamento local dos dados
 - [ ] Metas financeiras semanais
 - [ ] Integração futura com WhatsApp Bot (BrilhoBot™)
